@@ -1,0 +1,18 @@
+#Environment related
+.env
+.venv
+env/
+venv/
+#not the env.py from alembic
+!alembic/env.py
+
+#IDE related
+.idea/
+
+
+#BYTE-CODE
+*.pyc
+__pycache__/
+
+#extras
+.trunk/

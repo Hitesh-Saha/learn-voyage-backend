@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "server"
+version = "0.1.0"
+description = "A learning course application"
+authors = ["HITESH SAHA <hiteshsaha52@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.109.2"
+sqlalchemy = "^2.0.25"
+alembic = "^1.13.1"
+uvicorn = "^0.27.0.post1"
+asyncpg = "^0.29.0"
+requests = "^2.31.0"
+sqlmodel = "^0.0.14"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
